@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="/imagenes/logosinfondo.png" type="png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Visca Amoblamientos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./maderas.html">Maderas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>  
+
+    <main>
+        <form class=" formularioContacto">
+            <div class="mb-3">
+              <label for="Nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="Nombre" aria-describedby="Nombre">
+              <div id="Nombre" class="form-text">Ingrese su nombre.</div>
+            </div>
+            <div class="mb-3">
+                <label for="Apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="Apellido" aria-describedby="Apellido">
+                <div id="Apellido" class="form-text">Ingrese su apellido.</div>
+            </div>
+            <div class="mb-3">
+                <label for="Telefono" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="Telefono" aria-describedby="Telefono">
+                <div id="Telefono" class="form-text">Ingrese su telefono.</div>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="email">
+                <div id="email" class="form-text">Ingrese su email.</div>
+              </div>
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </form>
+        <!-- <form action="" method="get">
+            <fieldset class="formulario">
+                <legend>Contactate</legend>
+
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="nombre" id="nombre"> <br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido"> <br>
+
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" id="telefono"> <br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"> <br>
+
+                <label for="mensaje">Mensaje</label> <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea> <br>
+
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+        </form>  -->
+        <hr>
+        <div class="mapataller">
+            <h2>Encontranos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.803947785608!2d-60.64019362491683!3d-32.956185172369345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab05ae85375b%3A0xc669d2220587d977!2sMaip%C3%BA%201555%2C%20S2000%20CGU%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1683151083179!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer class="pie-pagina"> ©Copyright 2023
+        <a href="contacto.html">Contactanos</a>
+        <a href="https://www.instagram.com/amoblamientosvisca/" target="_blank">Instagram</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
